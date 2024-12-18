@@ -1,0 +1,144 @@
+﻿@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-lmiA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 100;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZ8ReDFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 200;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8RODFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oYiRODFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oZORODFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 600;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oaiQ-DFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05oabQ-DFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 800;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05ob8Q-DFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/s/librefranklin/v18/jizMREVItHgc8qDIbSTKq4XkRiUawTk7f45UM9y05obVQ-DFR-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsSkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsWkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhcMWkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhHMWkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduh8MKkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhrsKkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/s/librefranklin/v18/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhh8KkDtDM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/s/playfairdisplay/v37/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTXt_A_A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/s/playfairdisplay/v37/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXt_A_A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 900;
+  src: url(../fonts/s/playfairdisplay/v37/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_gGUXt_A_A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDZbtY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDZbtY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDZbtY.ttf) format('truetype');
+}
