@@ -1348,6 +1348,8 @@
    }
  }
 
+ /* ----------- header icons login arear----------- */
+
  .cart_area {
    display: flex;
    -webkit-box-pack: end;
@@ -1355,6 +1357,7 @@
    justify-content: flex-end;
    align-items: center;
  }
+
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
    .cart_area {
@@ -1381,13 +1384,16 @@
    padding-right: 0;
  }
 
- .middel_links ul li a {
-   color: #242424;
-   font-size: 12px;
-   line-height: 28px;
+ .middel_links ul li a i {
+   color: #494949;
+   font-size: 1.1rem;
+   width: 30px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
  }
 
- .middel_links ul li a:hover {
+ .middel_links ul li a:hover i {
    color: #ff6a28;
  }
 
@@ -4764,6 +4770,16 @@
    }
  }
 
+ /* --------------- home slider heading  ---------------*/
+ .slider_content h1 {
+   font-size: 8rem;
+   letter-spacing: 0px;
+   font-family: "FontAwesome";
+   text-shadow: 1px 2px rgb(252, 156, 53);
+   font-style: italic;
+   color: white;
+ }
+
  .single_slider .slider_content.content_one {
    margin-left: 13%;
    width: 550px;
@@ -8077,7 +8093,7 @@
  /* 23. shipping css here */
  .shipping_carousel {
    padding-bottom: 51px;
-   border-bottom: 1px solid #ddd;
+   /* border-bottom: 1px solid #ddd; */
    margin-bottom: 92px;
  }
 
@@ -8123,7 +8139,7 @@
  }
 
  .shipping_content a {
-   color: #b5b5b5;
+   color: #656565;
    font-size: 14px;
    display: block;
    font-weight: 600;
@@ -8133,11 +8149,16 @@
  }
 
  .shipping_content a:hover {
-   color: #242424;
+   color: #ff6a28;
  }
 
  .single_shipping {
    text-align: center;
+ }
+
+ .single_shipping:hover {
+   transform: scale(0.92);
+   transition: all 0.2s
  }
 
  .shipping_nine .shipping_carousel {
@@ -8223,7 +8244,7 @@
    display: block;
    font-weight: 400;
    line-height: 30px;
-   color: #747474;
+   color: #232323;
  }
 
  .footer_menu ul li a:hover {
@@ -8233,6 +8254,12 @@
  .footer_contact p {
    margin-bottom: 0;
    line-height: 30px;
+ }
+
+ .footer_contact p,
+ .newleter-content p {
+   color: #252525;
+
  }
 
  .footer_contact p a:hover {
@@ -8253,8 +8280,8 @@
  }
 
  .footer_contact ul li a {
-   color: #b2b2b2;
-   font-size: 15px;
+   color: #ff6a28;
+   font-size: 1rem;
    width: 40px;
    height: 40px;
    line-height: 40px;
@@ -8266,9 +8293,9 @@
  }
 
  .footer_contact ul li a:hover {
-   background: #242424;
+   background: #ff6a28;
    color: #fff;
-   border-color: #242424;
+   border-color: #ff6a28;
  }
 
  .newleter-content p {
@@ -8281,12 +8308,12 @@
    padding: 0 20px;
    border: 1px solid #e1e1e1;
    height: 45px;
-   color: #cacaca;
+   color: #000000;
    margin-bottom: 10px;
  }
 
  .newleter-content form button {
-   background: #242424;
+   background: #4e4e4e;
    line-height: 45px;
    padding: 0 10px;
    margin-top: 7px;
@@ -8346,7 +8373,7 @@
  }
 
  .footer_custom_links ul li a {
-   color: #747474;
+   color: #252525;
    text-transform: capitalize;
  }
 
@@ -8362,6 +8389,7 @@
 
  .copyright_area p {
    text-transform: capitalize;
+   color: #252525;
  }
 
  @media only screen and (max-width: 767px) {
