@@ -250,7 +250,7 @@
     Scroll Up 
 -----------------------------------------*/
  #scrollUp {
-   background: #242424 none repeat scroll 0 0;
+   background: #e9663e none repeat scroll 0 0;
    bottom: 85px;
    color: #ffffff;
    cursor: pointer;
@@ -430,15 +430,14 @@
  /* 02. Element */
  .button {
    background: #ff6a28;
-   border-radius: 16px;
+   /* border-radius: 16px; */
    box-shadow: none;
    color: #ffffff;
    display: inline-block;
    height: 33px;
    line-height: 33px;
    padding: 0 16px;
-   text-transform: uppercase;
-   font-size: 12px;
+   font-size: 1rem;
  }
 
  /* 2. Home 1 Header css here */
@@ -975,7 +974,7 @@
    content: "";
    width: 1px;
    height: 15px;
-   background: #999;
+   background: #323232;
    top: 6px;
    left: 0px;
  }
@@ -1747,9 +1746,10 @@
  .main_menu nav>ul>li>ul.mega_menu>li {
    width: 25%;
    float: left;
-   border-left: 1px solid #ddd;
-   padding-left: 30px;
+   /* border-left: 1px solid #ddd; */
+   /* padding-left: 30px; */
  }
+
 
  .main_menu nav>ul>li>ul.mega_menu>li:first-child {
    border-left: 0;
@@ -4798,6 +4798,10 @@
      margin-left: 5%;
      width: 400px;
    }
+
+   .slider_content h1 {
+     font-size: 5rem;
+   }
  }
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4805,12 +4809,20 @@
      margin-left: 5%;
      width: 300px;
    }
+
+   .slider_content h1 {
+     font-size: 4rem;
+   }
  }
 
  @media only screen and (max-width: 767px) {
    .single_slider .slider_content.content_one {
      margin-left: inherit;
      width: inherit;
+   }
+
+   .slider_content h1 {
+     font-size: 3.7rem;
    }
  }
 
@@ -5849,25 +5861,26 @@
 
  /* 06. banner section css here */
  .banner_conteiner {
-   background: url(../img/bg/banner3.jpg) no-repeat scroll center center/cover;
-   height: 550px;
+   background: url(../img/bg/social_banner.jpg) no-repeat scroll center center/cover;
+   padding: 180px 0px;
    display: table;
    width: 100%;
  }
 
  @media only screen and (max-width: 767px) {
    .banner_conteiner {
-     height: 350px;
+     padding: 80px 0px;
+
    }
  }
 
  .banner_section {
-   padding: 0 120px 100px;
+   padding: 0 0px 100px;
  }
 
  @media only screen and (min-width: 1200px) and (max-width: 1600px) {
    .banner_section {
-     padding: 0 30px 80px;
+     padding: 0 0px 80px;
    }
  }
 
@@ -5911,6 +5924,10 @@
    line-height: 54px;
  }
 
+ .banner_text p {
+   color: #373737;
+ }
+
  @media only screen and (max-width: 767px) {
    .banner_text h1 {
      font-size: 20px;
@@ -5921,25 +5938,31 @@
  .banner_text a {
    color: #242424;
    font-size: 16px;
-   margin-top: 75px;
+   /* margin-top: 75px; */
    display: inline-block;
    vertical-align: top;
    border-bottom: 2px solid #242424;
  }
 
  .banner_text a:hover {
-   color: #ff6a28;
-   border-color: #ff6a28;
+   color: #ff270f;
+   border-color: #ff270f;
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_text a {
+   /* .banner_text a {
      margin-top: 30px;
-   }
+   } */
  }
 
  .banner_thumb {
    position: relative;
+   overflow: hidden;
+ }
+
+ .collection_category_section .banner_thumb a img {
+   width: 100%;
+   height: auto;
  }
 
  .banner_thumb::before {
@@ -5947,7 +5970,7 @@
    content: "";
    width: 100%;
    height: 100%;
-   background: rgba(255, 255, 255, 0.5);
+   background: #ff6a2817;
    top: 0;
    left: 0;
    -webkit-transition: 0.3s;
@@ -5958,6 +5981,12 @@
 
  .banner_thumb:hover::before {
    opacity: 1;
+ }
+
+ .banner_thumb:hover img,
+ .banner_thumb:hover .banner_content {
+   transform: scale(1.06);
+   transition: all 0.3s;
  }
 
  /*home two css here*/
@@ -6497,57 +6526,58 @@
    }
  }
 
- /*banner eight css here*/
- .banner_section_eight {
-   padding-left: 30px;
-   padding-right: 30px;
+ /*collection category section css here*/
+ .collection_category_section {
+   /* padding-left: 30px;
+   padding-right: 30px; */
+   padding-bottom: 50px;
  }
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .banner_section_eight {
+   .collection_category_section {
      padding-bottom: 59px;
    }
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight {
+   .collection_category_section {
      padding-bottom: 29px;
-     padding-left: 0;
-     padding-right: 0;
+     /* padding-left: 0;
+     padding-right: 0; */
    }
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight .banner_area {
+   .collection_category_section .banner_area {
      margin-bottom: 30px;
    }
  }
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .banner_section_eight .banner_area.bottom {
+   .collection_category_section .banner_area.bottom {
      margin-top: 30px;
    }
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight .banner_thumb>a {
+   .collection_category_section .banner_thumb>a {
      width: 100%;
    }
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight .banner_thumb>a img {
+   .collection_category_section .banner_thumb>a img {
      width: 100%;
    }
  }
 
- .banner_section_eight .banner_content {
+ .collection_category_section .banner_content {
    position: absolute;
    bottom: 70px;
    left: 25px;
  }
 
- .banner_section_eight .banner_content h1 {
+ .collection_category_section .banner_content h1 {
    color: #242424;
    font-weight: 600;
    text-transform: capitalize;
@@ -6555,30 +6585,30 @@
  }
 
  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-   .banner_section_eight .banner_content h1 {
+   .collection_category_section .banner_content h1 {
      font-size: 32px;
    }
  }
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
-   .banner_section_eight .banner_content h1 {
+   .collection_category_section .banner_content h1 {
      font-size: 32px;
    }
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight .banner_content h1 {
+   .collection_category_section .banner_content h1 {
      font-size: 28px;
    }
  }
 
- .banner_section_eight .banner_content p {
+ .collection_category_section .banner_content p {
    color: #242424;
    font-size: 15px;
    font-weight: 500;
  }
 
- .banner_section_eight .banner_content a {
+ .collection_category_section .banner_content a {
    color: #242424;
    font-size: 16px;
    text-transform: capitalize;
@@ -6589,13 +6619,13 @@
    display: inline-block;
  }
 
- .banner_section_eight .banner_content a:hover {
+ .collection_category_section .banner_content a:hover {
    color: #ff6a28;
    border-color: #ff6a28;
  }
 
  @media only screen and (max-width: 767px) {
-   .banner_section_eight .banner_content a {
+   .collection_category_section .banner_content a {
      font-size: 15px;
      margin-top: 8px;
    }
@@ -6850,6 +6880,7 @@
    position: absolute;
    top: 0;
    left: 0;
+   right: 0;
    opacity: 0;
    visibility: hidden;
  }
@@ -6945,7 +6976,7 @@
    background: #fff;
    color: #909090;
    font-size: 15px;
-   color: #999;
+   color: #323232;
    display: block;
  }
 
@@ -6974,6 +7005,55 @@
    transition: 0.3s;
  }
 
+ /* ------------------- new arrivals  shoping icons links here ------------------- */
+ /* .single_product .product_thumb{
+  height: 370px;
+  overflow: hidden;
+  width: 100%;
+ } */
+ .single_product .product_thumb img {
+   object-fit: cover;
+   height: 380px;
+   max-width: 100%;
+ }
+
+ .quick_button .shop_icons {
+   display: flex;
+   justify-content: center;
+   gap: 12px;
+   opacity: 0;
+   visibility: hidden;
+ }
+
+ .single_product:hover .quick_button .shop_icons {
+   visibility: visible;
+   opacity: 1;
+   -webkit-transition: 0.8s;
+   transition: 08.s;
+ }
+
+ .quick_button .shop_icons a {
+   line-height: 35px;
+   background: #fff;
+   border: 1px solid gainsboro;
+   color: #323232;
+   padding: 0px 11px;
+   font-weight: normal;
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   font-size: 0.9rem;
+   text-transform: capitalize;
+   width: 100%;
+   text-align: center;
+   display: block;
+ }
+
+ .quick_button .shop_icons a:hover {
+   color: #ffffff;
+   background: #ff7b42;
+ }
+
+
  @media only screen and (max-width: 767px) {
    .quick_button {
      text-align: center;
@@ -6986,12 +7066,17 @@
      left: 20px;
      right: 20px;
    }
+
+   .single_product .product_thumb img {
+     object-fit: cover;
+     height: 290px;
+   }
  }
 
  .quick_button a {
    line-height: 45px;
    background: #fff;
-   color: #999;
+   color: #323232;
    padding: 0 10px;
    font-weight: normal;
    border-radius: 2px;
@@ -7020,7 +7105,7 @@
    top: 15px;
    left: 15px;
    background: #ff6a28;
-   padding: 0 13px;
+   padding: 5px 13px;
    border-radius: 2px;
  }
 
@@ -7038,7 +7123,7 @@
 
  .product_content h3 {
    line-height: 22px;
-   font-size: 13px;
+   font-size: 0.8rem;
    font-weight: 400;
    text-transform: capitalize;
    margin-bottom: 0;
@@ -7051,7 +7136,7 @@
  }
 
  .product_content h3 a {
-   color: #999;
+   color: #0c0c0c;
  }
 
  .product_content h3 a:hover {
@@ -7061,13 +7146,13 @@
  .product_content span {
    font-size: 13px;
    font-weight: 500;
-   color: #242424;
+   color: #000000;
  }
 
  .product_content span.old_price {
-   color: #a4a4a4;
+   color: rgb(225, 51, 20);
    text-decoration: line-through;
-   margin-left: 5px;
+   margin-left: 10px;
  }
 
  .label_product {
@@ -7573,6 +7658,13 @@
  .blog_thumb {
    position: relative;
    margin-bottom: 22px;
+   overflow: hidden;
+
+ }
+
+ .single_blog:hover .blog_thumb img {
+   transform: scale(1.04);
+   transition: all 0.3s;
  }
 
  .blog_thumb>a {
@@ -7595,12 +7687,12 @@
    visibility: visible;
  }
 
- .blog_thumb::before {
+ /* .blog_thumb::before {
    position: absolute;
    content: "";
    width: 100%;
    height: 100%;
-   background: rgba(255, 255, 255, 0.5);
+   background: #ff6a2817;
    top: 0;
    left: 0;
    -webkit-transition: 0.3s;
@@ -7608,7 +7700,7 @@
    opacity: 0;
    pointer-events: none;
    visibility: hidden;
- }
+ } */
 
  .blog_icon {
    position: absolute;
@@ -8050,7 +8142,7 @@
  }
 
  .text_follow a {
-   color: #999;
+   color: #323232;
    font-size: 13px;
    line-height: 18px;
  }
@@ -8092,35 +8184,35 @@
 
  /* 23. shipping css here */
  .shipping_carousel {
-   padding-bottom: 51px;
+   /* padding-bottom: 51px; */
    /* border-bottom: 1px solid #ddd; */
-   margin-bottom: 92px;
+   margin-bottom: 80px;
  }
 
- @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+ @media only screen and (min-width: 992px) and (max-width: 1600px) {
    .shipping_carousel {
-     margin-bottom: 72px;
+     margin-bottom: 65px;
    }
  }
 
- @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ /* @media only screen and (min-width: 992px) and (max-width: 1199px) {
    .shipping_carousel {
      padding-bottom: 51px;
-     margin-bottom: 72px;
+     margin-bottom: 65px;
    }
- }
+ } */
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
    .shipping_carousel {
-     padding-bottom: 55px;
-     margin-bottom: 53px;
+     /* padding-bottom: 55px; */
+     margin-bottom: 55px;
    }
  }
 
  @media only screen and (max-width: 767px) {
    .shipping_carousel {
-     padding-bottom: 55px;
-     margin-bottom: 54px;
+     /* padding-bottom: 55px; */
+     margin-bottom: 60px;
    }
  }
 
@@ -8154,11 +8246,11 @@
 
  .single_shipping {
    text-align: center;
+   transition: all 0.3s;
  }
 
  .single_shipping:hover {
    transform: scale(0.92);
-   transition: all 0.2s
  }
 
  .shipping_nine .shipping_carousel {
@@ -8432,6 +8524,13 @@
    .footer_widgets.fotter_five .footer_top {
      padding-top: 54px;
    }
+ }
+
+ /* ------------- footer icons  ------------- */
+ .footer_icons img {
+   width: 100%;
+   height: 125px;
+   object-fit: contain;
  }
 
  .footer_show_button {
@@ -8990,7 +9089,7 @@
  }
 
  .breadcrumb_content ul li a {
-   color: #999;
+   color: #323232;
  }
 
  .breadcrumb_content ul li a:hover {
@@ -10520,8 +10619,8 @@
  }
 
  .other_bread {
-   padding-top: 41px;
-   padding-bottom: 41px;
+   padding-top: 45px;
+   padding-bottom: 45px;
  }
 
  .table_desc {
@@ -11751,7 +11850,7 @@
    }
  }
 
- /*welcome about section css end*/
+ /*  ================================ about page section css end  ================================*/
  /* 12. about page css here */
  .header_about {
    border-bottom: 1px solid #ddd;
@@ -11759,6 +11858,10 @@
 
  .about_section {
    padding-bottom: 60px;
+ }
+
+ .about_section p {
+   text-align: justify;
  }
 
  .about_section.section_two {
@@ -11818,12 +11921,12 @@
  }
 
  @media only screen and (max-width: 767px) {
-   .view__work {
+   .shop_now_btn {
      margin-top: 18px;
    }
  }
 
- .view__work a {
+ .shop_now_btn a {
    color: #242424;
    border: 1px solid #242424;
    height: 40px;
@@ -11835,14 +11938,14 @@
    text-transform: uppercase;
  }
 
- .view__work a:hover {
+ .shop_now_btn a:hover {
    background: #ff6a28;
    color: #fff;
    border-color: #ff6a28;
  }
 
  @media only screen and (max-width: 767px) {
-   .view__work a {
+   .shop_now_btn a {
      padding: 7px 9px;
      height: 33px;
      font-size: 12px;
@@ -13656,11 +13759,11 @@
 
  /*blog details css end*/
  /*  26. modal css here */
- .modal-dialog.modal-dialog-centered {
-   min-width: 1000px;
- }
+ /* .modal-dialog.modal-dialog-centered {
+   min-width: 550px;
+ } */
 
- @media only screen and (min-width: 768px) and (max-width: 991px) {
+ /* @media only screen and (min-width: 768px) and (max-width: 991px) {
    .modal-dialog.modal-dialog-centered {
      min-width: 730px;
    }
@@ -13670,7 +13773,7 @@
    .modal-dialog.modal-dialog-centered {
      min-width: 90%;
    }
- }
+ } */
 
  .modal_tab_img {
    text-align: center;
@@ -14044,6 +14147,45 @@
  @media only screen and (max-width: 767px) {
    #frm_subscribe form input {
      padding: 0 104px 0 20px;
+   }
+ }
+
+ /* user login form input box */
+ .user_login_form form input {
+   background: #f3f3f3;
+   padding: 12px 20px 12px 20px;
+   /* height: 45px; */
+   border: 0;
+   width: 100%;
+   color: #0c0c0c;
+   font-size: 1rem;
+
+ }
+
+ .user_login_form form a {
+   background: #ff6a28;
+   cursor: pointer;
+   color: #ffffff;
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 10px 20px;
+   border-radius: 3px;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+   line-height: 65px;
+ }
+
+ .user_login_form form a:hover {
+   background: #e5723f;
+ }
+
+ @media only screen and (max-width: 767px) {
+   .user_login_form form input {
+     padding: 0 104px 0 20px;
+   }
+
+   .user_login_form form a.theme-btn-outlined {
+     width: 90px;
    }
  }
 
