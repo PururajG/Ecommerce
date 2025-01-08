@@ -4776,7 +4776,7 @@
    letter-spacing: 0px;
    font-family: "FontAwesome";
    text-shadow: 1px 2px rgb(252, 156, 53);
-   font-style: italic;
+   /* font-style: italic; */
    color: white;
  }
 
@@ -7573,6 +7573,19 @@
  }
 
  /* 07. blog area css here */
+
+ .blog_home { 
+   background-image: linear-gradient(to right, #bebab832, #9999998c), url(../img/blog/blog1.webp);
+   padding: 170px 0px;
+   background-size: cover;
+   background-position: center;
+ }
+
+ .blog_home p {
+   text-align: justify;
+   color: #2b2b2b;
+ }
+
  .blog_section {
    padding-bottom: 91px;
  }
@@ -7582,6 +7595,9 @@
  }
 
  @media only screen and (max-width: 767px) {
+  .blog_home {  
+    padding: 80px 0px; 
+  }
    .blog_section .section_title {
      margin-bottom: 30px;
    }
@@ -9365,7 +9381,7 @@
  }
 
  .product_ratting ul li a {
-   color: #ff6a28;
+   color: #ffbb1b;
  }
 
  @media only screen and (max-width: 767px) {
@@ -9757,18 +9773,18 @@
  }
 
  .product_d_right h1 {
-   color: #747474;
-   text-transform: capitalize;
-   line-height: 20px;
-   font-size: 18px;
-   font-weight: 400;
-   margin-bottom: 15px;
+  color: #333333;
+  text-transform: capitalize;
+  line-height: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
  }
 
  @media only screen and (max-width: 767px) {
-   .product_d_right h1 {
+   /* .product_d_right h1 {
      font-size: 20px;
-   }
+   } */
  }
 
  .product_d_right .product_ratting {
@@ -11921,12 +11937,12 @@
  }
 
  @media only screen and (max-width: 767px) {
-   .shop_now_btn {
+   .btn_orange {
      margin-top: 18px;
    }
  }
 
- .shop_now_btn a {
+ .btn_orange a {
    color: #242424;
    border: 1px solid #242424;
    height: 40px;
@@ -11938,14 +11954,14 @@
    text-transform: uppercase;
  }
 
- .shop_now_btn a:hover {
+ .btn_orange a:hover {
    background: #ff6a28;
    color: #fff;
    border-color: #ff6a28;
  }
 
  @media only screen and (max-width: 767px) {
-   .shop_now_btn a {
+   .btn_orange a {
      padding: 7px 9px;
      height: 33px;
      font-size: 12px;
@@ -12422,7 +12438,7 @@
  .advantages_ecommerce p {
    font-size: 14px;
    color: #242424;
-   font-style: italic;
+   /* font-style: italic; */
    font-weight: 400;
  }
 
@@ -13089,7 +13105,7 @@
  .blog_content p.post_desc {
    color: #a9a9a9;
    font-size: 13px;
-   font-style: italic;
+   /* font-style: italic; */
    line-height: 18px;
    margin-bottom: 7px;
  }
@@ -13097,8 +13113,8 @@
  .blog_content a.read_more {
    color: #747474;
    text-decoration: underline;
-   font-style: italic;
-   margin-bottom: 7px;
+   /* font-style: italic; */
+   /* margin-bottom: 7px; */
  }
 
  .blog_content a.read_more:hover {
@@ -13107,7 +13123,7 @@
 
  .post_meta span {
    font-size: 13px;
-   font-style: italic;
+   /* font-style: italic; */
    line-height: 18px;
    margin-bottom: 5px;
    color: #747474;
@@ -13126,10 +13142,10 @@
  }
 
  .blog_pagination .pagination {
-   border: 1px solid #ddd;
-   padding: 8px 10px;
+   /* border: 1px solid #ddd; */
+   /* padding: 8px 10px; */
    justify-content: center;
-   margin-top: 0;
+   /* margin-top: 0; */
  }
 
  .footer_widgets.blog_widgets .footer_top {
@@ -13313,7 +13329,7 @@
    background: #e0e0e0;
    margin: 20px 0;
    padding: 30px 45px;
-   font-style: italic;
+   /* font-style: italic; */
  }
 
  .blog_details_wrapper .social_sharing {
