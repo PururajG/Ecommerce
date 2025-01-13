@@ -7575,15 +7575,16 @@
  /* 07. blog area css here */
 
  .blog_home { 
-   background-image: linear-gradient(to right, #bebab832, #9999998c), url(../img/blog/blog1.webp);
-   padding: 170px 0px;
+   background-image:radial-gradient(#ff6a0054, #00000038), url(../img/bg/blog-bg.jpg);
+   padding: 180px 0px;
    background-size: cover;
    background-position: center;
  }
 
  .blog_home p {
    text-align: justify;
-   color: #2b2b2b;
+   color: #1d1d1d;
+   text-shadow:0px 0px 2px rgb(106, 103, 102);
  }
 
  .blog_section {
@@ -7595,9 +7596,10 @@
  }
 
  @media only screen and (max-width: 767px) {
-  .blog_home {  
-    padding: 80px 0px; 
-  }
+   .blog_home {
+     padding: 80px 0px;
+   }
+
    .blog_section .section_title {
      margin-bottom: 30px;
    }
@@ -9773,12 +9775,12 @@
  }
 
  .product_d_right h1 {
-  color: #333333;
-  text-transform: capitalize;
-  line-height: 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 15px;
+   color: #333333;
+   text-transform: capitalize;
+   line-height: 20px;
+   font-size: 1.1rem;
+   font-weight: 500;
+   margin-bottom: 15px;
  }
 
  @media only screen and (max-width: 767px) {
@@ -9795,9 +9797,24 @@
    margin-bottom: 11px;
  }
 
+ .product_d_right .product_price span{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+ }
+ .product_d_right .product_price del{
+  /* color: rgb(225, 51, 20);  */
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.product_d_right .product_price .discount{
+  color: rgb(225, 51, 20); 
+
+}
  .product_d_right .product_price span.current_price {
    color: #242424;
-   font-size: 13px;
+   font-size: 1.2rem;
    font-weight: 500;
  }
 
@@ -9946,7 +9963,7 @@
  .product_variant.quantity button {
    border: 0;
    margin-left: 15px;
-   background: #242424;
+   background: #443934;
    font-size: 13px;
    line-height: 50px;
    padding: 0 100px;
@@ -13037,6 +13054,11 @@
 
  .blog_page {
    margin-bottom: 50px;
+ }
+
+ .blog_page .blog_thumb img:hover {
+   transform: scale(1.05);
+
  }
 
  @media only screen and (min-width: 768px) and (max-width: 991px) {
